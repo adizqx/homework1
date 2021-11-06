@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         btnNext.setOnClickListener {
 
             if(et1.text.trim().isEmpty() || et2.text.trim().isEmpty()) {
-                Toast.makeText(this, "Заполнените поля", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Заполните поля", Toast.LENGTH_LONG).show()
             } else {
                 val name = et1.text.toString()
                 val surname = et2.text.toString()

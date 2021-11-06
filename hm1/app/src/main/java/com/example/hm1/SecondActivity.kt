@@ -10,8 +10,7 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
     val name = intent.getStringExtra("NAME")
     val surname = intent.getStringExtra("SURNAME")
-
-        tv1.setText(" " + name + " " + surname)
+        tv1.text = "$name $surname"
 
 
         btnback.setOnClickListener(){
